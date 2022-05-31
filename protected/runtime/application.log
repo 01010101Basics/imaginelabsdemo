@@ -5647,3 +5647,27 @@ Stack trace:
 REQUEST_URI=/projects/create
 in /var/www/research/protected/controllers/ProjectsController.php (123)
 in /var/www/research/index.php (13)
+2022/05/31 13:05:56 [error] [exception.CException] CException: Property "CUrlManager.enablePrettyUrl" is not defined. in /var/www/html/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/html/framework/YiiBase.php(220): CComponent->__set()
+#1 /var/www/html/framework/base/CModule.php(393): YiiBase::createComponent()
+#2 /var/www/html/framework/base/CApplication.php(531): CModule->getComponent()
+#3 /var/www/html/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/html/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/imaginelabs/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/imaginelabs/index.php/site/index
+HTTP_REFERER=http://localhost/imaginelabs/index.php/site/page?view=about
+---
+2022/05/31 13:06:21 [error] [exception.CException] CException: Property "CUrlManager.enableStrictParsing" is not defined. in /var/www/html/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/html/framework/YiiBase.php(220): CComponent->__set()
+#1 /var/www/html/framework/base/CModule.php(393): YiiBase::createComponent()
+#2 /var/www/html/framework/base/CApplication.php(531): CModule->getComponent()
+#3 /var/www/html/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/html/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/imaginelabs/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/imaginelabs/index.php/site/index
+HTTP_REFERER=http://localhost/imaginelabs/index.php/site/page?view=about
+---

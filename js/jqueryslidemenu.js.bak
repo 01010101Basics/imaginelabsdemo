@@ -7,9 +7,7 @@
 //Update: April 12th, 10: Fixed compat issue with jquery 1.4x
 
 //Specify full URL to down and right arrow images (23 is padding-right to add to top level LIs with drop downs):
-var getUrl = window.location;
-var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-//var base_url = 'http://'+window.location.host+'/' 
+var base_url = 'http://'+window.location.host+'/' 
 var arrowimages={down:['downarrowclass',  base_url+ 'images/down.gif', 23], right:['rightarrowclass',  base_url + 'images/right.gif']}
 
 var jqueryslidemenu={

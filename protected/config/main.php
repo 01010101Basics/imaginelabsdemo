@@ -118,7 +118,7 @@ return array(
 
 'options'=> array(
 							#for use with ADLDAP Active Directory / OpenLDAP
-                           /* 'ad_port'      => 389,
+                            'ad_port'      => 389,
                             'domain_controllers'    => array('10.0.0.24'),
 
                             'account_suffix' =>  '@domain',
@@ -126,24 +126,27 @@ return array(
                     // for basic functionality this could be a standard, non pr$
                             'admin_username' => 'ldapuser',
                             'admin_password' => 'passw0rd',
-            ),*/
+            ),
 		),
-		 'urlManager'=>array(
+		 /*'urlManager'=>array(
   			'urlFormat'=>'path',
+
      		 'showScriptName'=>false,
       			'caseSensitive'=>false,
-        ),
+        ),*/
 		// uncomment the following to enable URLs in path-format
-		/*
+		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			'rules'=>array(
+			'showScriptName' => false, 
+		'caseSensitive' => false,	
+		'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		),
-		*/
+		), 
+
 		/*'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),*/

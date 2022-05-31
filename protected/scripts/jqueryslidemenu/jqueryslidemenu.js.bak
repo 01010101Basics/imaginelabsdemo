@@ -1,20 +1,19 @@
-/*********************
+    /*********************
 //* jQuery Multi Level CSS Menu #2- By Dynamic Drive: http://www.dynamicdrive.com/
 //* Last update: Nov 7th, 08': Limit # of queued animations to minmize animation stuttering
 //* Menu avaiable at DD CSS Library: http://www.dynamicdrive.com/style/
 *********************/
 
 //Update: April 12th, 10: Fixed compat issue with jquery 1.4x
+DownpathBase = 'http://'+window.location.host+'/cmms/images/down.gif';
+RightpathBase = 'http://'+window.location.host+'/cmms/images/right.gif';
 
 //Specify full URL to down and right arrow images (23 is padding-right to add to top level LIs with drop downs):
-var getUrl = window.location;
-var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-//var base_url = 'http://'+window.location.host+'/' 
-var arrowimages={down:['downarrowclass',  base_url+ 'images/down.gif', 23], right:['rightarrowclass',  base_url + 'images/right.gif']}
+var arrowimages={down:['downarrowclass', DownpathBase, 23], right:['rightarrowclass', RightpathBase]}
 
 var jqueryslidemenu={
 
-animateduration: {over: 200, out: 100}, //duration of slide in/ out animation, in milliseconds
+animateduration: {over: 333, out: 333}, //duration of slide in/ out animation, in milliseconds
 
 buildmenu:function(menuid, arrowsvar){
 	jQuery(document).ready(function($){
@@ -31,6 +30,7 @@ buildmenu:function(menuid, arrowsvar){
 				+'" class="' + (this.istopheader? arrowsvar.down[0] : arrowsvar.right[0])
 				+ '" style="border:0;" />'
 			)
+			
 			$curobj.hover(
 				function(e){
 					var $targetul=$(this).children("ul:eq(0)")

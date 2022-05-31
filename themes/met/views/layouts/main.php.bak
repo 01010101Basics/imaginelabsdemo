@@ -39,9 +39,28 @@
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
 				
-				
-               
-				
+				array('label'=>'Forms', 'url'=>array('#'), 'items'=>array(
+
+                array('label'=>'New Pole', 'url'=>array('poles/create')),
+
+                    array('label'=>'Add Common Pole Deviations', 'url'=>array('commondeviations/create')),
+                     array('label'=>'Add Common Cellsite Deviations', 'url'=>array('cellcommondeviations/create')),
+                     array('label'=>'Add Common 3rd Party Deviations', 'url'=>array('thirdpartycommondeviations/create')),
+					array('label'=>'Add Inspectors', 'url'=>array('inspectors/create')),
+                     ),'submenuOptions'=>array('class'=>'subitems'),),
+				array('label'=>'Queries', 'url'=>array('#'), 'items'=>array(
+
+                                        array('label'=>'Manage Poles', 'url'=>array('poles/admin')),
+                                         array('label'=>'Poles to Inspect', 'url'=>array('poles/gettgs')),
+
+                                      
+                     ),'submenuOptions'=>array('class'=>'subitems')),
+				array('label'=>'Reports', 'url'=>array('#'), 'items'=>array(
+						array('label'=>'Inspection Form', 'url'=>array('site/page/view/goform')),
+						array('label'=>'Non Conformance Report', 'url'=>array('site/page/view/nonconform')),
+
+					 
+					),'submenuOptions'=>array('class'=>'subitems')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),

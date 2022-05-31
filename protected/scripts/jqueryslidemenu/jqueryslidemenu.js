@@ -7,9 +7,12 @@
 //Update: April 12th, 10: Fixed compat issue with jquery 1.4x
 DownpathBase = 'http://'+window.location.host+'/cmms/images/down.gif';
 RightpathBase = 'http://'+window.location.host+'/cmms/images/right.gif';
+var getUrl = window.location;
+var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
 //Specify full URL to down and right arrow images (23 is padding-right to add to top level LIs with drop downs):
-var arrowimages={down:['downarrowclass', DownpathBase, 23], right:['rightarrowclass', RightpathBase]}
+//var arrowimages={down:['downarrowclass', DownpathBase, 23], right:['rightarrowclass', RightpathBase]}
+var arrowimages={down:['downarrowclass',  base_url+ 'images/down.gif', 23], right:['rightarrowclass',  base_url + 'images/right.gif']}
 
 var jqueryslidemenu={
 
