@@ -1,0 +1,40 @@
+@media print {
+      /* insert your style declarations here */
+    #mainmenu{
+ display:none;
+}
+#logo {
+	display:none;
+}
+.pager{display:none;
+}
+.portlet {display:none; }
+#filter-form{display:none; }
+#footer {display:none; }
+#header{display:none;
+	}
+	#myslidemenu{display:none;
+	}
+.jqueryslidemenu{ display:none; }
+.breadcrumbs {display:none; }
+#destination-search { display:none;}
+
+#pagebreakhere {
+	page-break-after:always; !important
+	
+	}
+	.printtable {
+ display:block;
+}
+
+#myfooter{
+	display:none;
+}
+.printable {
+	 size: A4;
+    margin: 0;
+	}
+	th {
+	text-align:left;
+	}
+}

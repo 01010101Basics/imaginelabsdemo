@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Util.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="Extension.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="AuthException.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341180000000" />
+<file name="MediaEntry.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="IOException.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="CaptchaRequiredException.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341180000000" />
+<file name="MediaSource.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="Exception.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341180000000" />
+<file name="InvalidArgumentException.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="BaseMediaSource.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341180000000" />
+<file name="LoggingHttpClientAdapterSocket.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="HttpException.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="FeedEntryParent.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="BadMethodCallException.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341180000000" />
+<file name="Base.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341180000000" />
+<file name="VersionException.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="FeedSourceParent.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="MediaFileSource.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+<file name="Entry.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341180000000" />
+<file name="Feed.php" server="hq-dev-01//var/www/YIITEMPLATE/" local="130124425950000000" remote="130428341190000000" />
+</dwsync>

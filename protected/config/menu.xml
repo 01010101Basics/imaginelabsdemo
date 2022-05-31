@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<items>
+ <item>
+	  <label>Home</label>
+	  <url>array('site/index');</url>
+  </item>
+  <item>
+	  <label>About Us</label>
+      <url></url>
+	  <visible></visible>   
+ <items>    
+  <item>
+	      <label>What we do</label>
+	      <url>array('site/page');</url>
+  	   </item>
+	   <item>
+	      <label>Contact Us</label>
+	      <url>array('site/contact');</url>
+  	   </item>
+	  
+ </items>  
+  </item>
+  
+  <item>
+		  <label>Admin</label>
+		  <url></url>
+		  <visible>!Yii::app()->user->isGuest;</visible>
+
+    <items>
+	<item>
+	      <label>User</label>
+	      <url>array('user/index');</url>
+	</item>
+ 	<item>
+	      <label>User Files</label>
+	      <url>array('userfiles/index');</url>
+	</item>
+	<item>
+	      <label>Groups</label>
+	      <url>array('groups/index');</url>
+	</item>
+  
+    </items>  
+  </item>
+   <item>
+	      <label>Contact Us</label>
+	      <url>array('site/contact');</url>
+	  </item>
+<item>
+     <label>login</label>
+     <url>array('site/login');</url>
+     <visible>Yii::app()->user->isGuest;</visible>
+  </item>
+  <item>
+     <label>Logout</label>
+     <url>array('site/logout');</url>
+     <visible>!Yii::app()->user->isGuest;</visible>
+  </item>
+  
+  
+</items>

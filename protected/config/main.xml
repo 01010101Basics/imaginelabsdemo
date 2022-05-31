@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<items>
+ <item>
+	  <label>Home</label>
+	  <url>array('site/index');</url>
+  </item>
+  <item>
+	  <label>Companies</label>
+      <url>array('companies/index');</url>
+ <items>    
+	 
+	  <item>
+	      <label>Customers</label>
+	      <url>array('customers/index');</url>
+              
+	  </item>
+	   <item>
+	      <label>Contacts</label>
+	      <url>array('contacts/index');</url>
+  	  </item>
+	   <item>
+	      <label>Contracts</label>
+	      <url>array('contracts/index');</url>
+	  </item>
+	   <item>
+	      <label>Documents</label>
+	      <url>array('documents/index');</url>
+	  </item>
+	   <item>
+	      <label>Technicians</label>
+	      <url>array('technicians/index');</url>
+	  </item>
+	    <item>
+	      <label>Vendors</label>
+	      <url>array('vendors/index');</url>
+	  </item>
+           <item>
+	      <label>Users</label>
+	      <url>array('user/index');</url>  
+	  </item>
+           <item>
+	      <label>Groups</label>
+	      <url>array('groups/index');</url>
+	  </item>
+ </items>  
+      </item>
+  
+ 
+  <item>
+      <label>Assets</label>
+      <url>array('assets/index');</url>
+	  <items>
+		  <item>
+		      <label>Asset Parts</label>
+		      <url>array('assetparts/index');</url>
+	 <items>
+	 	 <item>
+		      <label>Part Types</label>
+		      <url>array('partTypes/index');</url>
+		  </item>
+	 </items>
+		  </item>
+		  <item>
+		      <label>Asset Locations</label>
+		      <url>array('asset_locations/index');</url>
+		  </item>
+		  <item>
+		      <label>Asset Status</label>
+		      <url>array('assetStatuses/index');</url>
+		  </item>
+	  </items>
+  </item>
+
+   <item>
+	      <label>Contact Us</label>
+	      <url>array('site/contact');</url>
+	  </item>
+ <item>
+     <label>Preventative Maintenacne</label>
+     <url>array('pms/index');</url>
+     <items>
+		 <item>
+			<label>Calendar</label>
+			<url>array('/cal');</url>
+		 </item>
+		 <item>
+			<label>Charts</label>
+			 <url>array('/pms/chart');</url>
+		 </item>
+	</items>
+  </item>
+  <item>
+     <label>login</label>
+     <url>array('site/login');</url>
+     <visible>Yii::app()->user->isGuest;</visible>
+  </item>
+  <item>
+     <label>Logout</label>
+     <url>array('site/logout');</url>
+     <visible>!Yii::app()->user->isGuest;</visible>
+  </item>
+  
+  
+</items>

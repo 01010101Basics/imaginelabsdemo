@@ -1,0 +1,41 @@
+.breakafter{
+	 display: block;
+	page-break-after:always !important;
+	 page-break-inside: avoid;
+    clear:both;
+}
+
+.breakbefore{
+	 display: block;
+   clear: both;
+   page-break-before: always !important;
+}
+table{ border-collapse:collapse; }
+.trone{
+background:#000; border-top-color:#000; color:#FFF;	
+}
+.trtwo{
+background: #DFDFDF; border-top: #000 ;border-left:#000 1px solid; 
+border-right:#000 1px solid;
+}
+.trthree{
+border-left:#000 1px solid; 
+border-right:#000 1px solid;
+}
+
+.trfour{
+border-left:#000 1px solid; 
+border-right:#000 1px solid;
+}
+.trfive {
+border-left:#000 1px solid; 
+ border-right:#000 1px solid;
+}
+table.trsix td table.trsix th{
+	border-left:#000 1px solid; 
+	border-right:#000 1px solid;page-break-inside: avoid;
+}
+
+
+
+

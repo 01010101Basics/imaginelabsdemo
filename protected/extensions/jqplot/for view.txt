@@ -1,0 +1,13 @@
+// basic usage : specify url instead of data
+$this->widget('ext.jqplot.JqplotGraphWidget', array(
+        'data' => Yii::app()->baseUrl.'/data.test.php'
+));
+ 
+// or with a javascript error handler
+$this->widget('ext.jqplot.JqplotGraphWidget', array(
+        'data' => Yii::app()->baseUrl.'/data.test.php',
+        'ajaxOpts' => array(
+                'dataType' => 'json',
+                'error' => 'js:function() { alert("error"); }'
+        )
+));

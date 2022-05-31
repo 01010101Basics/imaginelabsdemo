@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name=".gitattributes" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269562712128" remote="130428341300000000" />
+<file name=".gitignore" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269562812158" remote="130428341300000000" />
+<file name=".travis.yml" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269562922191" remote="130428341300000000" />
+<file name="CHANGELOG.md" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269563052230" remote="130428341300000000" />
+<file name="Gruntfile.js" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269563182269" remote="130428341300000000" />
+<file name="package.json" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269563312308" remote="130428341300000000" />
+<file name="README.md" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269563502365" remote="130428341300000000" />
+<file name="release checklist.md" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269563632404" remote="130428341300000000" />
+<file name="toastr-icon.png" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269566903385" remote="130428341300000000" />
+<file name="toastr-responsive.css" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269567023421" remote="130428341300000000" />
+<file name="toastr.css" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269567143457" remote="130428341300000000" />
+<file name="toastr.js" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269567333514" remote="130428341300000000" />
+<file name="toastr.less" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269567463553" remote="130428341300000000" />
+<file name="toastr.min.css" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269567643607" remote="130428341300000000" />
+<file name="toastr.min.js" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269567793652" remote="130428341300000000" />
+<file name="toastr.min.js.map" server="hq-dev-01//var/www/YIITEMPLATE/" local="130347269567973706" remote="130428341300000000" />
+</dwsync>
