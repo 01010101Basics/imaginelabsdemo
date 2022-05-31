@@ -13,4 +13,17 @@ $this->pageTitle=Yii::app()->name;
 </br>
 <p><strong>For practical uses cases such as:</strong></br></br> Testing ELB/Scalling in AWS with deployment templates</br>
 </p>
-<?php echo CHtml::image(Yii::app()->baseUrl . '/img/netwrk.jpg', "this is alt tag of image", array('height'=>'450', 'width'=>'900')); ?>
+<?php //echo CHtml::image(Yii::app()->baseUrl . '/img/netwrk.jpg', "this is alt tag of image", array('height'=>'450', 'width'=>'900')); ?>
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<video width="900" height="450" autoplay loop muted>
+  <source src="<?php echo Yii::app()->baseUrl;?>/img/movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+</body>
+</html>
