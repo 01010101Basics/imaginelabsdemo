@@ -153,10 +153,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=127.0.0.1;dbname=dummy',
+			'connectionString' => 'mysql:host=127.0.0.1;dbname=users',
 			'emulatePrepare' => true,
-			'username' => 'mysqluser@localhost',
-			'password' => '',
+			'username' => 'mysqluser',
+			'password' => 'Th3Cro$$',
 			'charset' => 'utf8',
 		),
 		

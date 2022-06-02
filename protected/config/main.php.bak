@@ -9,7 +9,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/booster');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'',
-	'id' => 'motive-energy.com',
+	'id' => 'imagine-nation-net-lab1',
 	'theme'=>'met',
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -55,7 +55,7 @@ return array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'yehweh12',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('127.0.0.1','::1','10.0.0.244','76.94.77.169','209.31.54.232'),
+			'ipFilters'=>array('127.0.0.1','::1','13.52.241.93'),
 		),
 	),
 
@@ -117,42 +117,46 @@ return array(
 
 
 'options'=> array(
+							#for use with ADLDAP Active Directory / OpenLDAP
                             'ad_port'      => 389,
                             'domain_controllers'    => array('10.0.0.24'),
 
-                            'account_suffix' =>  '@Motive-Energy',
+                            'account_suffix' =>  '@domain',
                             'base_dn' => NULL,
                     // for basic functionality this could be a standard, non pr$
-                            'admin_username' => 'ldap',
-                            'admin_password' => '@M0tive!',
+                            'admin_username' => 'ldapuser',
+                            'admin_password' => 'passw0rd',
             ),
 		),
-		 'urlManager'=>array(
+		 /*'urlManager'=>array(
   			'urlFormat'=>'path',
+
      		 'showScriptName'=>false,
       			'caseSensitive'=>false,
-        ),
+        ),*/
 		// uncomment the following to enable URLs in path-format
-		/*
+		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			'rules'=>array(
+			'showScriptName' => false, 
+		'caseSensitive' => false,	
+		'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		),
-		*/
+		), 
+
 		/*'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),*/
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=10.0.0.12;dbname=vzidb',
+			'connectionString' => 'mysql:host=127.0.0.1;dbname=users',
 			'emulatePrepare' => true,
-			'username' => 'root@localhost',
-			'password' => 'yehweh12',
+			'username' => 'mysqluser@localhost',
+			'password' => 'Th3Cro$$',
 			'charset' => 'utf8',
 		),
 		
